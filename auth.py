@@ -2,8 +2,8 @@ import requests
 
 
 proxies = {
-  'http': 'http://192.168.0.125:8081',
-  'https': 'http://192.168.0.125:8081',
+  'http': 'http://192.168.0.125:8080',
+  'https': 'http://192.168.0.125:8080',
 }
 
 ses = requests.Session()
